@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Barbería Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <header>
+            <div class="caja"> <!--armamos una "caja" para configurar el posicionamiento de lo que ira adentro de nuestro header o encabezado-->
+                <h1>
+                <img src="imagenes/logo-blanco.png">
+                </h1>
+
+                <nav> <!--con la etiqueta nav configuramos panel de navegacion-->
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#productosDestacados">Productos</a></li>
+                        <li><a href="#infoContacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>         
+    </header>
+
+    <main>
+        <section id="home">
+
+        <div class="principal">
+            <p class="parrafo">Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+            <p class="parrafo"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+            <p class="parrafo">Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
+
+        </div>        
+
+        <p class="linea">Nos destacamos por lo siguiente:</p>
+    
+        <div class="diferenciales">
+            <ul class="items">
+                <li>Atención personalizada a los clientes</li>
+                <li>Espacio diferenciado</li>
+            </ul> 
+
+            <ul class="items">
+                <li>Localización</li>
+                <li>Profesionales calificados</li>
+            </ul>
+        </div> 
+        
+        </section>   
+        
+         <section id="productosDestacados">
+            <p class="linea">Nuestros productos:</p>
+
+            <ul class="productos">
+                <li>
+                    <h2> Cabello</h2>
+                    <img src="imagenes/cabello.jpg">
+                    <p class="productoDescripcion">Con tijera o máquina, a gusto del cliente</p>
+                    <p class="productoPrecio">$10.00</p>       
+                </li>
+
+                <li>
+                    <h2>Barba</h2>
+                    <img src="imagenes/barba.jpg">
+                    <p class="productoDescripcion">Corte y diseño profesional de barba</p>
+                    <p class="productoPrecio">$8.00</p> 
+                </li>
+
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="imagenes/cabello+barba.jpg">
+                    <p class="productoDescripcion">Paquete completo de cabello y barba</p>
+                    <p class="productoPrecio">$15.00</p>                    
+                </li>
+            </ul>
+        </section>
+
+        <section id="infoContacto">
+
+            <p class="linea">Nuestro formulario de contacto:</p>
+            <form>
+                <label for="nombreApellido"> Nombre y Apellido </label>
+                <input class="inputPadron" type="text" placeholder="Juan Perez" id="nombreApellido" required>
+
+                <label for="correoElectronico"> Correo Electrónico</label>
+                <input class="inputPadron" type="email" id="correoElectronico" placeholder="juanPerez@hotmail.com" required>
+
+                <label for="telefono"> Teléfono</label>
+                <input class="inputPadron" type="tel" placeholder="(0000)-000-00000" id="telefono" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="63" rows="10" placeholder="Escriba aquí su mensaje..." id="mensaje"></textarea>
+                <fieldset> <!--todo lo que ponemos denro de esra etiqueta pertenece al mismo grupo, los agrupamos dentro de fieldset para darle mejor semantica, funciona tmb con div-->
+                    <legend class="legend">Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="mail"><input type="radio" name="contacto" value="mail">Mail</div></label>                    
+                    <label for="telefono"><input type="radio" name="contacto" value="telefono">Teléfono</label>
+                    <label for="whatsapp"><input type="radio" name="contacto" value="whatsapp"  checked>Whatsapp</label>                
+                </fieldset>                
+
+                <fieldset class="horario">
+                    <legend class="legend">En que horario prefier ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    /</select>
+                </fieldset>
+                <label class="check"><input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Alura?</label>
+                <input class="enviar" type="submit" value="Enviar Formulario" >
+            </form>
+
+            <p class="linea">Nuestros Horarios:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Días</th>
+                        <th>Horarios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>   
+
+    <footer>
+        <img src="imagenes/logo-blanco.png">
+        <p class="copyright">
+           &copy Copyright Barbería Alura - 2020 
+        </p>
+    </footer>
+</body>
+</html>

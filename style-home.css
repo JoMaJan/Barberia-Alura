@@ -1,0 +1,77 @@
+.tituloPrincipal{
+    padding: 30px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(141, 180, 236);
+    margin-bottom: 5px;
+}
+
+#banner{
+    width: 100%;
+    height: 20%;
+    
+}
+
+.principal{
+    background: #cccccc;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.centrar,p{ /*a la clase centrar la uso dos veces pero en distintas partes, la use en un titulo al principio del codigo y despues casi al final en otro titulo, da el mismo estilo a distintas partes y a parte le sumo la etiqueta p de parrafo para que me centre todos los parrafos */
+    text-align: center; 
+    margin:30px;
+}
+
+.centrar{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+em strong{
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background:rgb(141, 180, 236) ;
+ 
+    margin: 10px;
+}
+
+.titulo3{
+    text-align: center; 
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.items{
+    list-style-type: square;   
+    right: 140px;
+    top: 40px;
+    font-style: italic;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35%;
+}
+
+.items li{
+    margin: 10px;
+}
+.imagenDiferenciales{
+    margin-right: 40px;
+    width: 30%;
+
+}
+
+footer{
+    background: url(imagenes/bg.jpg);
+    height: 200px;
+}
