@@ -10,23 +10,22 @@
     </head>
 
     <body>        
-        <header>
-            <div class="caja"> <!--armamos una "caja" para configurar el posicionamiento de lo que ira adentro de nuestro header o encabezado-->
-                <h1>
-                <img src="imagenes/logo-blanco.png">
-                </h1>
-
-                <nav> <!--con la etiqueta nav configuramos panel de navegacion-->
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>         
+        <header> 
+            <div id="logo">
+                 <img class="imagenLogo" src="imagenes/logo-blanco.png"> 
+             </div>
+            
+            <nav> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>     
         </header>
+
         
-        <main><!--etiqueta especifica para el "cuerpo de contenido" de la pagina -->
+        <main>
             
             <ul class="productos">
                 <li>
@@ -54,10 +53,12 @@
         </main> 
 
         <footer>
-            <img src="imagenes/logo-blanco.png">
+            <div class="container">
+            <img class="imagenLogo" src="imagenes/logo-blanco.png">
             <p class="copyright">
                &copy Copyright Barbería Alura - 2020 
             </p>
+            </div>
         </footer>
     </body>
 
