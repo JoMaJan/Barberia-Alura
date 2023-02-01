@@ -27,6 +27,8 @@ h1 img{
 }
 
 .caja{
+    display: grid;
+    grid-template-columns: 50% 50;
     width: 940px; /*le decimos que la caja que es donde esta el logo y el menu, tenga 940 pixeles xq comunmente las paginas tienen 1280px de ancho, entonces le decimos q ocupe el 70% mas o menos del total */
     position: relative; /*cambiamos la posicion para que tome el valor que le pasamos arriba y el que la pasaremos abajo. posicion relativa a la posicion absoluta que habiamos declarado.*/
     margin: 0 auto; /* ponemos margen cero para arriba y abajo, y automatico para los costados, para que se acomode entre los 940px y el tamaño total de la pantalla.*/
