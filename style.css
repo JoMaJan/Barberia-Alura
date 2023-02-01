@@ -16,11 +16,13 @@ body{
 header{
     text-align: center;
 }
+
 #logo{
     margin-bottom: 20px;
 }
-#imagenDiferenciales{
-    width: 100px;
+
+.imagenLogo{
+    width: 150px;
 }
 
 nav ul{
@@ -32,5 +34,62 @@ nav li{
     display: inline-block;
     text-align: center;
     margin: 0 10px;
+}
+
+nav li a{
     text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#principal{
+    border: 2px solid whitesmoke;
+    margin: 25px;
+}
+
+.parrafo{
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.parrafo em{
+    color: yellow;
+}
+
+.linea{
+    margin: 0 0 20px 25px;
+    color: yellow;
+}
+
+.listaDiferenciales{
+    list-style: square;
+    margin:0 0 30px 45px;
+}
+
+.items{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+#imagenDiferenciales{
+    margin: 0 auto 20px;
+    text-align:center
+}
+
+#imagenDiferenciales img{
+    width: 50%;
+}
+
+.enlaces{
+    margin: 0 auto 20px;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    color: whitesmoke;
 }
