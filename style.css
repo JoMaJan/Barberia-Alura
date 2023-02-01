@@ -42,6 +42,10 @@ nav li a{
     font-weight: bold;
 }
 
+nav li a:hover{
+    color:#c78c19;
+}
+
 #principal{
     border: 2px solid whitesmoke;
     margin: 25px;
@@ -55,12 +59,13 @@ nav li a{
 }
 
 .parrafo em{
-    color: yellow;
+    color: #c78c19
 }
 
 .linea{
     margin: 0 0 20px 25px;
-    color: yellow;
+    color: #c78c19;
+    font-size: 1.5em;
 }
 
 .listaDiferenciales{
@@ -86,7 +91,6 @@ nav li a{
 .enlaces{
     margin: 0 auto 20px;
     text-align: center;
-
 }
 
 footer{
