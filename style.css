@@ -118,3 +118,19 @@ footer{
     margin: 30px;
 }
 
+.productos img{
+    filter: invert(100%);
+    opacity: 70%;
+    border:2px solid #2519c7;
+}
+
+.precio, .productos h2{
+    color: #c78c19;
+}
+
+.productos:hover{
+    border: 2px solid #c78c19 ;
+    border-top: 10px solid #c78c19;
+    scale: 1.1;
+}
+
