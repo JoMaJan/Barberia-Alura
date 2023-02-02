@@ -24,7 +24,7 @@ header{
 }
 
 .imagenLogo{
-    width: 150px;
+    width: 100px;
 }
 
 nav ul{
@@ -111,6 +111,7 @@ footer{
     border: 2px solid whitesmoke;
     border-top: 10px solid whitesmoke;;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 .productos h2, p{
     color: whitesmoke;
@@ -132,5 +133,6 @@ footer{
     border: 2px solid #c78c19 ;
     border-top: 10px solid #c78c19;
     scale: 1.1;
+    transition: 1s all;
 }
 
