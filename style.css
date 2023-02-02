@@ -6,7 +6,10 @@
 }
     
 body{
-    background-color: rgb(39, 33, 33);
+    background: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url("./imagenes/fondoNuevo.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
     margin:0 auto;
 }
 
@@ -42,6 +45,7 @@ nav li a{
     text-transform: uppercase;
     color: whitesmoke;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 nav li a:hover{
@@ -103,6 +107,10 @@ footer{
     text-align: center;
 }
 
+.enlaces iframe{
+    border: 1px solid #c78c19 ;
+}
+
 
 /*PRODUCTOS---------------------------------------*/
 
@@ -110,23 +118,31 @@ footer{
     text-align: center;
     border: 2px solid whitesmoke;
     border-top: 10px solid whitesmoke;;
-    margin-bottom: 30px;
+    margin: 20px;
     border-radius: 10px;
 }
-.productos h2, p{
-    color: whitesmoke;
-    font-size: 1.5em;
-    margin: 30px;
-}
+
 
 .productos img{
     filter: invert(100%);
     opacity: 70%;
     border:2px solid #2519c7;
+    margin-bottom: 20px;
 }
 
 .precio, .productos h2{
     color: #c78c19;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.productoDescripcion{
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin: 30px;
+
 }
 
 .productos:hover{
