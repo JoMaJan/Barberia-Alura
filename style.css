@@ -1,8 +1,9 @@
+/*ESTILOS GENERALES PROYECTO----------------------------*/
+
 *{
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
-
     
 body{
     background-color: rgb(39, 33, 33);
@@ -13,6 +14,7 @@ body{
     margin: 0 auto;
 }
 
+/*HEADER Y FOOTER EN COMUN-----------------------------------*/
 header{
     text-align: center;
 }
@@ -45,6 +47,14 @@ nav li a{
 nav li a:hover{
     color:#c78c19;
 }
+
+footer{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+/*INDEX-------------------------------------------------------------*/
 
 #principal{
     border: 2px solid whitesmoke;
@@ -93,7 +103,18 @@ nav li a:hover{
     text-align: center;
 }
 
-footer{
+
+/*PRODUCTOS---------------------------------------*/
+
+.productos{
     text-align: center;
-    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-top: 10px solid whitesmoke;;
+    margin-bottom: 30px;
 }
+.productos h2, p{
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin: 30px;
+}
+
