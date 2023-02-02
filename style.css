@@ -152,3 +152,63 @@ footer{
     transition: 1s all;
 }
 
+/*FORMULARIO--------------------------------------*/
+
+
+#formulario{
+    text-align: center;
+}
+.inputPadron, textarea{
+    margin:15px;
+    width:60%;
+    opacity: 80%;
+}
+
+.labelForm{
+    font-size: 1.5em;
+    color: whitesmoke;
+    display: block;
+    margin:10px;
+}
+
+.botonesContacto label{
+    color:#c78c19;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.3em;
+}
+option{
+    font-size: 1em;
+}
+
+.horario select, .check{
+    margin: 20px;
+}
+
+#formulario p{
+    color: #c78c19;
+    font-size: 1.5em;
+}
+
+.enviar{
+    margin:20px;
+    background-color:#c78c19 ;
+    font-size: 1em;
+    font-weight: bold;
+    padding:15px;
+}
+
+.enviar:hover{
+    border: 2px solid whitesmoke ;
+    scale: 1.1;
+    transition: 1s all;
+}
+
+
+
+
+
+
+
+
