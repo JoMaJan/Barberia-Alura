@@ -106,6 +106,7 @@ footer{
 .enlaces{
     margin: 0 auto 20px;
     text-align: center;
+    opacity: 90%;
 }
 
 .enlaces iframe{
