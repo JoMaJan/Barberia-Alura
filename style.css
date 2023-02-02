@@ -126,7 +126,7 @@ footer{
 .productos img{
     filter: invert(100%);
     opacity: 70%;
-    border:2px solid #2519c7;
+    border:2px solid #b7b6c2;
     margin-bottom: 20px;
 }
 
@@ -162,6 +162,11 @@ footer{
     margin:15px;
     width:60%;
     opacity: 80%;
+    box-shadow: 2px 2px 5px 1px #c78c19;
+}
+
+.inputPadron{
+    height: 30px;
 }
 
 .labelForm{
@@ -197,13 +202,34 @@ option{
     font-size: 1em;
     font-weight: bold;
     padding:15px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: 1s all;
 }
 
 .enviar:hover{
     border: 2px solid whitesmoke ;
     scale: 1.1;
-    transition: 1s all;
 }
+
+#tabla{
+    margin:50px auto;
+    font-size: 1em;
+}
+
+#tabla th{
+    color: whitesmoke;
+    background-color: grey;
+    padding: 1opx;
+    border: 1px solid white;
+}
+
+#tabla td{
+    background-color: #c78c19;
+    padding: 10px;
+    border: 1px solid white;
+}
+
 
 
 
