@@ -14,17 +14,19 @@
     </head>
 
     <body>
-        <header>
+        <header id="headerFooter">
             <div id="logo">
                 <img class="imagenLogo" src="imagenes/logo-blanco.png"> 
-            </div>           
-           <nav> 
-               <ul>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="productos.html">Productos</a></li>
-                   <li><a href="contacto.html">Contacto</a></li>
-               </ul>
-           </nav>     
+            </div>
+            <div id="navegador">           
+                <nav> 
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>  
+             </div>    
         </header>
 
         <main>
@@ -61,10 +63,12 @@
                         /</select>
                     </fieldset>
 
-                    <label class="labelForm"><input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Alura?</label>
-                    <input class="enviar" type="submit" value="Enviar Formulario" >
+                    <div>
+                        <label class="labelForm"><input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Alura?</label>
+                        <input class="enviar" type="submit" value="Enviar Formulario" >
 
-                    <p>Nuestros Horarios:</p>
+                        <p>Nuestros Horarios:</p>
+                    </div>
                 </form>            
             
             <table id="tabla">
@@ -74,7 +78,7 @@
                         <th>Horarios</th>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     <tr>
                         <td>Lunes</td>

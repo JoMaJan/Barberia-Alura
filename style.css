@@ -14,6 +14,7 @@ body{
 }
 
 .container{
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -45,7 +46,7 @@ nav li a{
     text-transform: uppercase;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 nav li a:hover{
@@ -125,7 +126,7 @@ footer{
 
 .productos img{
     filter: invert(100%);
-    opacity: 70%;
+    opacity: 60%;
     border:2px solid #b7b6c2;
     margin-bottom: 20px;
 }
@@ -230,7 +231,81 @@ option{
     border: 1px solid white;
 }
 
+/*Media queries-----------------------------------------*/
 
+@media screen and (min-width: 940px){
+
+
+    #headerFooter{
+        max-width: 940px;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #navegador{
+        margin-top: 100px;
+    }
+
+    /*Media queriesINDEX---------------------------------------------*/
+
+    #contenidoDiferenciales .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #imagenDiferenciales img{
+        text-align: left;
+        width:300px;
+    }
+
+    #mapa{
+        width:100%
+    }
+
+    /*Media queriesPRODUCTOS----------------------------------------*/
+
+    #mainProductos .container{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+   
+    .productos img{
+        width: 80%;
+    }
+
+    /*Media queriesCONTACTO-------------------------------------------*/
+
+
+    #formulario{
+        width:940px;
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    .inputPadron{
+        height: 50px;
+    }
+
+    #tipoContacto{
+        text-align: left;
+    }
+
+    .botonesContacto label{
+        text-align: left;
+    }
+
+    .enviar{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    #tabla{
+        margin-left:150px;
+        font-size: 1em;
+    }
+
+}
 
 
 
